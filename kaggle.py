@@ -1,6 +1,6 @@
 # 노트북 안에서 그래프를 그리기 위해
 %matplotlib inline
-
+pwd
 
 #Render Matplotlib Plots Inline
 %matplotlib inline
@@ -41,7 +41,7 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 
-question = pd.read_csv('/Users/dongweonshin/Documents/DataScience/kaggle-survey-2017/schema.csv')
+question = pd.read_csv('data/kaggle-survey-2017/schema.csv')
 question.shape
 
 question.tail()
